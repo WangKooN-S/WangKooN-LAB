@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* 인트로 */
+.intro{text-align:center;letter-spacing:-1px;min-height:768px;height:100vh;display:flex;align-items:center;justify-content: center;}
+.intro__inner{width:400px;height:530px;color:#444;transition:all 1s;}
+.intro__symbol{width:330px;height:256px;border-bottom:4px solid #262626;margin:0 auto 35px;background:url(../images/face.png) no-repeat 50% 0;overflow:hidden;transition:all .2s;animation:faceIntro 1s forwards ease-in-out}
+.intro.hide .intro__inner{transform:translateY(-100px);opacity:0}
+.intro__text--ko{font-weight:bold;font-size:80px;letter-spacing:-10px;height:80px;line-height:80px}
+.intro__text--ko:after{content:".";border-left:1px solid #000;display:inline-block;color:transparent;margin-left:10px;animation:blink .5s alternate infinite}
+.intro__text--ko span{display:inline-block}
+.intro__text--ko span:nth-child(1){padding-left:25px}
+.intro__text--en{opacity:0;transition:opacity 1s;font-size:16px;letter-spacing:1px;color:#515151;height:16px;line-height:16px;margin-top:16px}
+.intro__text-piece1{color:#fa2969}
+.intro__text-loader{margin:50px auto 0;width:56px;height:56px;border:6px solid #444444;border-radius:50%;transition:all .5s;position:relative;line-height:54px}
+.intro__text-loader:after{content:"";position:absolute;top:-10px;left:-10px;width:100%;height:100%;border:10px solid transparent;border-top:10px solid #fa2969;border-radius:50%;animation:spin 1s infinite linear}
+
+/* 인트로 모션 종료 후 */
+.is-complete .intro__text--ko:after{border-left:1px solid transparent}
+.is-complete .intro__text--en{opacity:1}
+.is-complete .intro__text-loader{border:6px solid #fa2969}
+.is-complete .intro__text-loader:after{opacity:0}
+.is-complete .intro__text-loader.btn-start{background:transparent;line-height:1;font-size:18px;box-sizing:content-box}
+.is-complete .intro__text-loader.btn-start:hover{background:#fa2969;color:#fff;font-weight:bold;cursor:pointer;font-size:20px;line-break:56px}
+.is-complete .intro__text-loader.scroller{width:40px;border-radius:30px 30px;border:3px solid #fa2969;height:60px;position:relative;background:transparent}
+.is-complete .intro__text-loader.scroller:before{content:'';width:8px;height:8px;background:#fa2969;margin-left:-4px;top:8px;border-radius:4px;animation-duration:1.5s;animation-iteration-count:infinite;animation-name:scroll;position:absolute;left:50%}
+
+@keyframes faceIntro {
+    50%,100% {background-position-y:0}
+    0%{background-position-y:530px}
+    75% {background-position-y:60px}
+}
+
+@keyframes blink {
+    0%,50%{opacity:0} 51%,100%{opacity:1}
+}
+
+@keyframes scroll{
+    0%{opacity:1}
+    100%{opacity:0;transform:translateY(36px)}    
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}   

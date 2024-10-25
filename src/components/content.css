@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 컨텐츠 */
+.content{display:flex;flex-direction: column;align-items:end;z-index:1;position: relative;}
+
+/* 컨텐츠 타이틀 */
+.content-title{position:absolute;top:0;left:0;width:50vw;height:100vh;box-sizing:border-box;display:flex;align-items:center;justify-content: center;opacity:1;transition:.3s all ease;--var-main-color:#000}
+.content-title.fixed{position:fixed;}
+.content-title .content__inner{min-height:560px}
+.content__symbol{width: 330px;height: 256px;border-bottom: 4px solid #262626;margin: 0 auto 35px;background: url(../images/face.png) no-repeat 50% 0;overflow: hidden;}
+.content__group--ko{height:80px;overflow:hidden;line-height:80px}
+.content__title--ko{font-size:80px;text-align:center;letter-spacing: -10px;color:var(--var-main-color);transition:.3s all ease}
+.content__group--en{height:16px;overflow:hidden;line-height:16px;margin-top:16px;}
+.content__title--en{font-size:16px;text-align:center;letter-spacing: 3px;color:#515151;transition:.3s all ease}
+
+.content-title[data-theme-index="0"]{opacity:0;}
+.content-title[data-theme-index="1"]{--var-main-color:#612ce9}
+.content-title[data-theme-index="1"] .content__title--ko,
+.content-title[data-theme-index="1"] .content__title--en{transform:translateY(0)}
+.content-title[data-theme-index="2"]{--var-main-color:#e92c6a}
+.content-title[data-theme-index="2"] .content__title--ko,
+.content-title[data-theme-index="2"] .content__title--en{transform:translateY(-100%)}
+.content-title[data-theme-index="3"]{--var-main-color:#2886e6}
+.content-title[data-theme-index="3"] .content__title--ko,
+.content-title[data-theme-index="3"] .content__title--en{transform:translateY(-200%)}
+
+/* 테마 */
+.theme{min-height:100vh;width:50vw;box-sizing:border-box;padding:10vh 60px}
+.theme__inner{background-color:#fff;border-top:10px solid var(--var-main-color);box-sizing:border-box;padding:70px}
+.theme__inner + .theme__inner{margin-top:60px}
+.theme[data-theme-index="1"] .theme__inner{--var-main-color:#6836e9}
+.theme[data-theme-index="2"] .theme__inner{--var-main-color:#ea3f77}
+.theme[data-theme-index="3"] .theme__inner{--var-main-color:#2c89e7}
+.theme__header{display:none;}
+.theme__content{display:flex;flex-direction: column;gap:16px;letter-spacing:-.3px}
+
+/* 테마 - 인트로 */
+.introduce__name{line-height: 1;font-size: 45px;color: var(--var-main-color);font-weight: bold;}
+.introduce__position{line-height:24px;font-weight:bold}
+.introduce__tags{margin-top:-8px;display:flex;gap:4px;font-size:12px;flex-wrap:wrap}
+.introduce__tag-item{padding:2px 6px;border:1px solid var(--var-main-color);border-radius:4px;color:var(--var-main-color);font-weight:bold}
+.introduce__bio{margin-top:8px;font-size:18px;line-height:1.4}
+
+.introduce__list{line-height:1.6;padding-top:16px}
+.introduce__list--title{font-size:20px;font-weight:bold;padding-bottom:8px}
+.introduce__list--content{position: relative;padding-left:24px;display:flex;flex-direction: column;gap:10px}
+.introduce__list--item{position: relative;font-size:16px;}
+.introduce__list--item:before{content:"";position:absolute;width:11px;height:11px;border:1px solid #aaa;border-radius:50%;left:-24px;top:4px;background-color:#fff;z-index:1}
+.introduce__list--item:after{content:"";position:absolute;width:1px;height:calc(100% + 11px);background-color:#eee;left:-18px;top:3px}
+.introduce__list--item:last-child:after{display:none}
+
+.introduce__list--item-year{color:#aaa;font-size:12px}
+.introduce__list--item-title{font-weight:bold;color:#222}
+.introduce__list--item-description,
+.introduce__list--item-position{color:#888;font-size:13px}
+.introduce__list--item-description .tx--sub,
+.introduce__list--item-position .tx--sub{opacity:.6}
+.introduce__list--item-position .tx--tags{font-size:11px;color:#aaa;opacity:.6}
+
+/* 백그라운드 */
+.background-area{width:50vw;position:fixed;top:0;left:50%;right:0;bottom:0;transition:.5s background ease;z-index:0;background-color:transparent}
+.background-area[data-theme-index="0"]{opacity:0;z-index:-1}
+.background-area[data-theme-index="1"]{background-color:#7849f4}
+.background-area[data-theme-index="2"]{background-color:#ff757f}
+.background-area[data-theme-index="3"]{background-color:#75baff}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* 네비 */
+.navigation{position:fixed;top:0;left:0;bottom:0;width:40px;background-color:rgba(0,0,0,.01);transition:.3s all ease}
+.navigation.hide{transform:translateX(-100%)}
+.navigation__list{display:flex;justify-content: center;align-items: center;gap:16px}
