@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 function ContentIntro( {themeData} ) {
-    console.log(themeData);
+    // console.log(themeData);
     const content = themeData.content[0];
     
 	return (

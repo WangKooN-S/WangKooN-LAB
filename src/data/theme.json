@@ -51,15 +51,14 @@
                                 "position": "개발본부 웹UI개발팀 (팀장)",
                                 "year": "2022.11-2024.9",
                                 "tag" : ["HTML5","CSS3","jQuery","React","접근성","SEO"]
-                            },
-                            {
+                            },{
                                 "position": "사업본부 서비스기획팀 (팀장)",
                                 "year": "2021.3-2022.11",
-                                "tag" : ["서비스기획","서비스운영"]
+                                "tag" : ["신규 서비스 기획","서비스 운영","서비스 지표 관리"]
                             },{                                
                                 "position": "사업본부 UX디자인팀 퍼블리셔",
                                 "year": "2019.3-2021.3",
-                                "tag" : ["HTML5","CSS3","jQuery","접근성"]
+                                "tag" : ["에누리 가격비교 담당","UI/UX 개선 프로젝트","접근성 프로젝트"]
                             }
 
                         ]
@@ -70,7 +69,7 @@
                             {
                                 "position": "퍼블리싱팀 퍼블리셔",
                                 "year": "2019.1-2019.3",
-                                "tag" : ["HTML5","CSS3","jQuery","접근성"]
+                                "tag" : ["HTML5","CSS3","jQuery","접근성 프로젝트"]
                             }
                         ]
                     },{
@@ -80,22 +79,22 @@
                             {
                                 "position": "옥션 UX실 웹퍼블리셔",
                                 "year": "2016-2018",
-                                "tag" : ["HTML5","CSS3","jQuery","접근성"]
+                                "tag" : ["옥션 마케팅 프로모션","G마켓 해외직구관","옥션회원혜택","접근성"]
                             },
                             {
                                 "position": "이베이코리아 통합사업1본부 웹퍼블리셔",
                                 "year": "2015-2016",
-                                "tag" : ["xHTML","CSS2","jQuery"]
+                                "tag" : ["옥션/지마켓 프로모션, 기획전 퍼블리싱","접근성 프로젝트"]
                             },
                             {
                                 "position": "G마켓 웹퍼블리셔",
                                 "year": "2013-2015",
-                                "tag" : ["xHTML","jQuery","WebDesign","Flash"]
+                                "tag" : ["마케팅 프로모션","영업실 기획전","플래시 애니메이션 담당"]
                             },
                             {
-                                "position": "G마켓 통합영업본부 웹디자이너",
+                                "position": "G마켓 통합영업본부 운영기획팀 웹디자이너",
                                 "year": "2010-2013",
-                                "tag" : ["WebDesign","Flash"]
+                                "tag" : ["패션 카테고리 기획전 신규/운영","플래시 애니메이션 담당"]
                             }
                         ]
                     }
@@ -119,13 +118,105 @@
         "type" : "hobby",
         "content" : [
             {
-
+                "title" : "화폐 수집",
+                "description" : "대한민국을 비롯한 전 세계의 지폐와 주화를 수집합니다.",
+                "theme" : [
+                    "근대 주화 ~ 대한민국 현행 주화 및 화폐",
+                    "U.S Quarter 시리즈",
+                    "유로주화 시리즈",
+                    "한국 및 세계 민트세트",
+                    "한국의 우표 및 크리스마스 씰"
+                ],
+                "link" : {
+                    "title" : "Koonie Collect Archive ",
+                    "description" : "화폐 수집과 관련한 정보를 소개하고, 소장품 리스트를 관리하는 페이지 입니다.",
+                    "url" : "https://wangkoon-s.github.io/CollectArchive/",
+                    "image" : [
+                        "icoKoonieCollection.png"
+                    ]
+                },
+                "tags" : ["조선은행권","한국은행권","민트세트","프루프주화","우표","크리스마스씰"]
+            },{
+                "title" : "레트로 게임기 수집",
+                "description" : "과거부터 현재까지의 핸드헬드 및 거치형 콘솔 게임기를 수집하고 플레이 합니다.",
+                "theme" : [
+                    "게임보이 이후 닌텐도 핸드헬드 시리즈",
+                    "PSP 이후 소니 핸드헬드 시리즈",
+                    "구세대 닌텐도 콘솔 게임기",
+                    "구세대 소니 콘솔 게임기",
+                    "리눅스 및 안드로이드 레트로 핸드헬드 기기",
+                    "바탑형 레트로 게임기"
+                ],
+                "photos" : [
+                    {
+                        "title" : "PSP 3세대",
+                        "description" : "PSP 3000 시리즈는 2008년 10월 14일에 출시된 소니의 휴대용 게임기입니다.",
+                        "image" : "hobby_image1.jpg"
+                    },
+                    {
+                        "title" : "PS 비타 1세대",
+                        "description" : "PS VITA는 2011년 12월 17일에 출시된 소니의 휴대용 게임기입니다.",
+                        "image" : "hobby_image2.jpg"
+                    },
+                    {
+                        "title" : "닌텐도 2DS & 오딘 라이트",
+                        "description" : "Nintendo 2DS는 2013년 10월 12일에 출시된 닌텐도의 휴대용 게임기입니다.",
+                        "image" : "hobby_image3.jpg"
+                    },
+                    {
+                        "title" : "게임보이 어드밴스",
+                        "description" : "Gameboy Advance는 2001년 3월 21일에 출시된 닌텐도의 휴대용 게임기입니다.",
+                        "image" : "hobby_image4.jpg"                       
+                    },
+                    {
+                        "title" : "게임보이 포켓",
+                        "description" : "Gameboy Pocket은 1996년 7월 21일에 출시된 닌텐도의 휴대용 게임기입니다.",
+                        "image" : "hobby_image5.jpg"                        
+                    },
+                    {
+                        "title" : "닌텐도 스위치",
+                        "description" : "Nintendo Switch는 2017년 3월 3일에 출시된 닌텐도의 하이브리드 게임기입니다.",
+                        "image" : "hobby_image6.jpg"                      
+                    },
+                    {
+                        "title" : "게임보이 어드밴스 SP",
+                        "description" : "Gameboy Advance SP는 2003년 2월 14일에 출시된 닌텐도의 휴대용 게임기입니다.",
+                        "image" : "hobby_image7.jpg"
+                    },
+                    {
+                        "title" : "RG35XX",
+                        "description" : "게임보이를 오마주한 리눅스 기반의 레트로 핸드헬드 게임기입니다.",
+                        "image" : "hobby_image9.jpg"
+                    },
+                    {
+                        "title" : "핸드헬드 컬렉션",
+                        "description" : "레트로 핸드헬드 게임기 컬렉션입니다.",
+                        "image" : "hobby_image8.jpg"
+                    }
+                ],
+                "tags" : ["냉장고 게임보이","게임보이 포켓","게임보이 컬러","NDSL","DSi","Nintendo3DS","PSP","PSVita","Switch"]
+            },{
+                "title" : "테마 여행",
+                "description" : "각 도시와 나라의 역사와 문화를 배우고 체험하기 위해 여행합니다.",
+                "theme" : [
+                    "해외 역사, 음식 , 교통, 문화 체험",
+                    "근현대 역사 유적지 탐방"
+                ],
+                "link" : {
+                    "title" : "Travel Stories by Koonie ",
+                    "description" : "여행을 통해 배운 역사와 문화를 소개하고, 여행기를 기록하는 페이지 입니다.",
+                    "url" : "https://csd.cafe24.com/myHome/travel/",
+                    "image" : [
+                        "icoKoonieTravel.png"
+                    ]
+                },
+                "tags" : ["조선왕릉투어","서울고궁투어","달빛기행","서울성곽길","서울둘레길"]
             }
         ]
     },{
         "idx": 3,
         "title" : "만들었어요",
-        "titleEn" : "MY PORTFOLIO",
+        "titleEn" : "MY PROJECT",
         "type" : "portfolio",
         "content" : [
             {
