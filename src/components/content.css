@@ -106,8 +106,8 @@
 .project__link--techStack{display:flex;gap:4px;flex-wrap:wrap;}
 .project__link--tag-item{font-size:10px;background-color:rgba(0,0,0,.3);color:#fff;border-radius:4px;padding:2px 4px;line-height:1}
 .project__link--content{display:flex;gap:8px;flex-wrap:wrap;border-top: 1px dashed #ddd;margin: 16px -16px 0;padding: 16px 16px 0}
-.project__link--item{display:inline-flex;height:80px;width:auto;border:1px solid #ddd;border-radius:8px}
-.project__link--item img{border-radius:8px}
+.project__link--item{display:inline-flex;height:80px;width:auto;border-radius:8px}
+.project__link--item img{border-radius:8px;border:1px solid #ddd;}
 
 /* 백그라운드 */
 .background-area{width:50vw;position:fixed;top:0;left:50%;right:0;bottom:0;transition:.5s background ease;z-index:0;background-color:transparent}
@@ -130,6 +130,15 @@
     .theme__inner{padding:60px 48px}
 }
 
+/* 1024 미만일때  */
+@media screen and (max-width : 1024px){
+    .hobby__photos--item,
+    .project__link--item{width:calc((100% - 8px) / 2);box-sizing:border-box;height:auto}
+    .hobby__photos--item img,
+    .project__link--item img{width:100%;height:auto}
+    .hobby__photos--description{height:13px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap}
+}
+
 /* 980 미만일때  */
 @media screen and (max-width : 980px){
     .theme__inner{padding:60px 36px}
@@ -147,6 +156,8 @@
     .content__group--en{display:none;height:11px;line-height:11px;margin-top:4px}
     .content__title--en{font-size:11px;}
     .theme{width:100%}
+    .hobby__photos--item,
+    .project__link--item{width:calc((100% - 16px) / 3)}
     .background-area{width:100%;left:0}
 }
 
@@ -157,10 +168,6 @@
     .theme{padding:16px}
     .theme__inner{padding:48px 28px}
     .introduce__name{font-size:38px}
-    /* .introduce__name,
-    .introduce__position,
-    .introduce__bio{text-align:center}
-    .introduce__tags{justify-content: center;} */
-
-
+    .hobby__photos--item,
+    .project__link--item{width:calc((100% - 8px) / 2)}
 }
