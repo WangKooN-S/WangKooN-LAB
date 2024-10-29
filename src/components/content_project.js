@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 function ContentProject( {themeData} ) {
     
-    const content = themeData.content[0];
+    const content = themeData.content;
     const combinedProjects = [].concat(content.personalProj || [], content.teamProj || []);
 
     console.log(content.personalProj);
@@ -10,9 +10,9 @@ function ContentProject( {themeData} ) {
 		<>
 		<section id={themeData.type} className={`theme theme-${themeData.type}`} data-theme-index={themeData.idx}>
             <h2 className="sr-only">{themeData.title}</h2>
-            {themeData.type === 'project' && combinedProjects.length > 0 && (
-                combinedProjects.map((project, index) => (
-                    <div className="project theme__inner">
+            {themeData.type === 'project' && content.length > 0 && (
+                content.map((project, index) => (
+                    <div className="theme__inner">
                         <header key={index} className="theme__header">
                             <h3 className="theme__title">{project.title}</h3>
                             <p className="theme__description">{project.description}</p>

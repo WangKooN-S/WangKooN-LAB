@@ -220,150 +220,148 @@
         "type" : "project",
         "content" : [
             {
-                "personalProj" : {
-                    "title" : "개인 프로젝트",
-                    "description" : "HTML5, CSS3, jQuery, React를 사용하여 제작한 개인 프로젝트입니다.",
-                    "projects" : [
-                        {
-                            "title" : "WangKooN-LAB",
-                            "description" : "개인 포트폴리오 사이트입니다. \n jQuery기반의 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
-                            "url" : "https://wangkoon-s.github.io/WangKooN-LAB/",
-                            "image" : [
-                                "pfThumb11.jpg",
-                                "pfThumb12.jpg"
-                            ] ,
-                            "year" : "2019",
-                            "tags" : ["웹 프로젝트"],
-                            "participation": "기획/디자인/개발 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
-                        },
-                        {
-                            "title" : "Travel Stories by Koonie",
-                            "description" : "여행을 통해 배운 역사와 문화를 소개하고, 여행기를 기록하는 페이지 입니다.",
-                            "url" : "https://csd.cafe24.com/myHome/travel/",
-                            "image" : [
-                                "pfThumb05.jpg",
-                                "pfThumb06.jpg"
-                            ],
-                            "year" : "2018",
-                            "tags" : ["웹 프로젝트"],
-                            "participation": "기획/디자인/개발 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery","Photoshop","Google Sheet"]
-                        },
-                        {
-                            "title" : "Koonie Collect Archive",
-                            "description" : "화폐 수집과 관련한 정보를 소개하고, 소장품 리스트를 관리하는 페이지 입니다.\n 구글시트를 데이터베이스로 활용하여 소장품 목록을 관리합니다. \n jQuery기반 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
-                            "url" : "https://wangkoon-s.github.io/CollectArchive/",
-                            "image" : [
-                                "pfThumb03.jpg",
-                                "pfThumb04.jpg"
-                            ],
-                            "year" : "2017",
-                            "tags" : ["웹 프로젝트"],
-                            "participation": "기획/디자인/개발 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
-                        },
-                        {
-                            "title" : "[Android] 후다닥 스테이션",
-                            "description" : "위치기반으로 가장 가까운 지하철역의 실시간 도착 정보 및 역 정보를 제공합니다. \n 서울시 공공데이터를 활용하여 제작하였습니다.",
-                            "url" : "https://csd.cafe24.com/huddak1/",
-                            "image" : [
-                                "pfThumb01.jpg",
-                                "pfThumb02.jpg"
-                            ],
-                            "year" : "2015",
-                            "tags" : ["하이브리드 앱 프로젝트"],
-                            "participation": "기획/디자인/개발 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Phonegap", "Photoshop"]
-                        }
-                    ]
-                },
-                "teamProj" : {
-                    "title" : "팀 프로젝트",
-                    "description" : "소속 회사 및 팀에서 제작한 프로젝트 목록 입니다.",
-                    "projects" : [
-                        {
-                            "title" : "마크업 산출물 관리 시스템",
-                            "description" : "퍼블리싱 단계에서 생산되는 마크업 산출물을 도메인별로 목록화하여, 관리하는 시스템입니다. \n 마크업 산출물의 품질 향상 및 유관부서의 업무 효율화를 위해 제작하였습니다.",
-                            "url" : "https://wangkoon-s.github.io/EnuriPublishMaster/",
-                            "image" : [
-                                "pftThumb1.jpg",
-                                "pftThumb2.jpg",
-                                "pftThumb3.jpg"
-                            ],
-                            "year" : "2024",
-                            "tags" : ["팀 프로젝트"],
-                            "participation": "기획/디자인/개발 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Gitlab", "Figma", "Google Sheet"]
-                        },
-                        {
-                            "title" : "에누리 가격비교",
-                            "description" : "(주)써머스플랫폼에서 서비스하는 에누리 가격비교 서비스의 리뉴얼 프로젝트 참여 \n 레거시 코드를 리팩토링하고, 접근성 및 SEO를 개선하였습니다.",
-                            "url" : "https://www.enuri.com/",
-                            "image" : [
-                                "pftThumb4.jpg",
-                                "pftThumb5.jpg",
-                                "pftThumb6.jpg"
-                            ],
-                            "year" : "2020",
-                            "tags" : ["팀 프로젝트"],
-                            "participation": "웹UI 퍼블리싱 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Figma", "Accessibility", "SEO", "Subversion"]
-                        },
-                        {
-                            "title" : "에누리 가격비교 해외직구",
-                            "description" : "(주)써머스플랫폼에서 서비스하는 해외직구관의 신규 프로젝트 참여 \n 웹 표준을 준수하고 접근성 및 SEO를 고려하여 제작하였습니다.",
-                            "url" : "https://www.enuri.com/global",
-                            "image" : [
-                                "pftThumb7.jpg",
-                                "pftThumb8.jpg"
-                            ],
-                            "year" : "2019",
-                            "tags" : ["팀 프로젝트"],
-                            "participation": "웹UI 퍼블리싱 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery","Subversion"]
-                        },
-                        {
-                            "title" : "에누리 판매자 광고센터",
-                            "description" : "(주)써머스플랫폼에서 서비스하는 판매자 광고센터 리뉴얼 프로젝트 참여 \n 디자인 및 퍼블리싱 작업을 담당하였습니다.",
-                            "url" : "https://seller.enuri.com",
-                            "image" : [
-                                "pftThumb9.jpg",
-                                "pftThumb10.jpg"
-                            ],
-                            "year" : "2019",
-                            "tags" : ["팀 프로젝트"],
-                            "participation": "디자인 80%, 퍼블리싱 100%",
-                            "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Phostoshop","Subversion"]
-                        },
-                        {
-                            "title" : "신한카드 Deep Microsite",
-                            "description" : "신한카드 Deep 마이크로사이트 프로젝트 참여 \n 퍼블리싱 작업을 담당하였습니다.",
-                            "url" : "https://www.shinhancard.com/conts/newcard/mobile/main.html",
-                            "image" : [
-                                "pfThumb07.jpg",
-                                "pfThumb08.jpg"
-                            ],
-                            "year" : "2017",
-                            "tags" : ["외주 프로젝트"],
-                            "participation": "퍼블리싱 100%",
-                            "techStack": ["HTML5", "CSS3", "Phostoshop"]
-                        },
-                        {
-                            "title" : "Minnavi 웹 리뉴얼",
-                            "description" : "Minnavi 웹 리뉴얼 프로젝트 참여 \n 퍼블리싱 작업을 담당하였습니다.",
-                            "url" : "http://www.minnavi.co.kr/",
-                            "image" : [
-                                "pfThumb09.jpg",
-                                "pfThumb10.jpg"
-                            ],
-                            "year" : "2016",
-                            "tags" : ["외주 프로젝트","서비스 종료"],
-                            "participation": "퍼블리싱 100%",
-                            "techStack": ["HTML5", "CSS3", "Phostoshop"]
-                        }
-                    ]
-                }
+                "title" : "개인 프로젝트",
+                "description" : "HTML5, CSS3, jQuery, React를 사용하여 제작한 개인 프로젝트입니다.",
+                "projects" : [
+                    {
+                        "title" : "WangKooN-LAB",
+                        "description" : "개인 포트폴리오 사이트입니다. \n jQuery기반의 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/WangKooN-LAB/",
+                        "image" : [
+                            "pfThumb11.jpg",
+                            "pfThumb12.jpg"
+                        ] ,
+                        "year" : "2019",
+                        "tags" : ["웹 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
+                    },
+                    {
+                        "title" : "Travel Stories by Koonie",
+                        "description" : "여행을 통해 배운 역사와 문화를 소개하고, 여행기를 기록하는 페이지 입니다.",
+                        "url" : "https://csd.cafe24.com/myHome/travel/",
+                        "image" : [
+                            "pfThumb05.jpg",
+                            "pfThumb06.jpg"
+                        ],
+                        "year" : "2018",
+                        "tags" : ["웹 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery","Photoshop","Google Sheet"]
+                    },
+                    {
+                        "title" : "Koonie Collect Archive",
+                        "description" : "화폐 수집과 관련한 정보를 소개하고, 소장품 리스트를 관리하는 페이지 입니다.\n 구글시트를 데이터베이스로 활용하여 소장품 목록을 관리합니다. \n jQuery기반 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/CollectArchive/",
+                        "image" : [
+                            "pfThumb03.jpg",
+                            "pfThumb04.jpg"
+                        ],
+                        "year" : "2017",
+                        "tags" : ["웹 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
+                    },
+                    {
+                        "title" : "[Android] 후다닥 스테이션",
+                        "description" : "위치기반으로 가장 가까운 지하철역의 실시간 도착 정보 및 역 정보를 제공합니다. \n 서울시 공공데이터를 활용하여 제작하였습니다.",
+                        "url" : "https://csd.cafe24.com/huddak1/",
+                        "image" : [
+                            "pfThumb01.jpg",
+                            "pfThumb02.jpg"
+                        ],
+                        "year" : "2015",
+                        "tags" : ["하이브리드 앱 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Phonegap", "Photoshop"]
+                    }
+                ]
+            },
+            {
+                "title" : "팀 프로젝트",
+                "description" : "소속 회사 및 팀에서 제작한 프로젝트 목록 입니다.",
+                "projects" : [
+                    {
+                        "title" : "마크업 산출물 관리 시스템",
+                        "description" : "퍼블리싱 단계에서 생산되는 마크업 산출물을 도메인별로 목록화하여, 관리하는 시스템입니다. \n 마크업 산출물의 품질 향상 및 유관부서의 업무 효율화를 위해 제작하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/EnuriPublishMaster/",
+                        "image" : [
+                            "pftThumb1.jpg",
+                            "pftThumb2.jpg",
+                            "pftThumb3.jpg"
+                        ],
+                        "year" : "2024",
+                        "tags" : ["팀 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Gitlab", "Figma", "Google Sheet"]
+                    },
+                    {
+                        "title" : "에누리 가격비교",
+                        "description" : "(주)써머스플랫폼에서 서비스하는 에누리 가격비교 서비스의 리뉴얼 프로젝트 참여 \n 레거시 코드를 리팩토링하고, 접근성 및 SEO를 개선하였습니다.",
+                        "url" : "https://www.enuri.com/",
+                        "image" : [
+                            "pftThumb4.jpg",
+                            "pftThumb5.jpg",
+                            "pftThumb6.jpg"
+                        ],
+                        "year" : "2020",
+                        "tags" : ["팀 프로젝트"],
+                        "participation": "웹UI 퍼블리싱 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Figma", "Accessibility", "SEO", "Subversion"]
+                    },
+                    {
+                        "title" : "에누리 가격비교 해외직구",
+                        "description" : "(주)써머스플랫폼에서 서비스하는 해외직구관의 신규 프로젝트 참여 \n 웹 표준을 준수하고 접근성 및 SEO를 고려하여 제작하였습니다.",
+                        "url" : "https://www.enuri.com/global",
+                        "image" : [
+                            "pftThumb7.jpg",
+                            "pftThumb8.jpg"
+                        ],
+                        "year" : "2019",
+                        "tags" : ["팀 프로젝트"],
+                        "participation": "웹UI 퍼블리싱 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery","Subversion"]
+                    },
+                    {
+                        "title" : "에누리 판매자 광고센터",
+                        "description" : "(주)써머스플랫폼에서 서비스하는 판매자 광고센터 리뉴얼 프로젝트 참여 \n 디자인 및 퍼블리싱 작업을 담당하였습니다.",
+                        "url" : "https://seller.enuri.com",
+                        "image" : [
+                            "pftThumb9.jpg",
+                            "pftThumb10.jpg"
+                        ],
+                        "year" : "2019",
+                        "tags" : ["팀 프로젝트"],
+                        "participation": "디자인 80%, 퍼블리싱 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Phostoshop","Subversion"]
+                    },
+                    {
+                        "title" : "신한카드 Deep Microsite",
+                        "description" : "신한카드 Deep 마이크로사이트 프로젝트 참여 \n 퍼블리싱 작업을 담당하였습니다.",
+                        "url" : "https://www.shinhancard.com/conts/newcard/mobile/main.html",
+                        "image" : [
+                            "pfThumb07.jpg",
+                            "pfThumb08.jpg"
+                        ],
+                        "year" : "2017",
+                        "tags" : ["외주 프로젝트"],
+                        "participation": "퍼블리싱 100%",
+                        "techStack": ["HTML5", "CSS3", "Phostoshop"]
+                    },
+                    {
+                        "title" : "Minnavi 웹 리뉴얼",
+                        "description" : "Minnavi 웹 리뉴얼 프로젝트 참여 \n 퍼블리싱 작업을 담당하였습니다.",
+                        "url" : "http://www.minnavi.co.kr/",
+                        "image" : [
+                            "pfThumb09.jpg",
+                            "pfThumb10.jpg"
+                        ],
+                        "year" : "2016",
+                        "tags" : ["외주 프로젝트","서비스 종료"],
+                        "participation": "퍼블리싱 100%",
+                        "techStack": ["HTML5", "CSS3", "Phostoshop"]
+                    }
+                ]
             }
         ]
     }

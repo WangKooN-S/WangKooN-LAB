@@ -1,6 +1,19 @@
 @charset "utf-8";
 
 /* 네비 */
-.navigation{position:fixed;top:0;left:0;bottom:0;width:40px;background-color:rgba(0,0,0,.01);transition:.3s all ease}
+.navigation{position:fixed;top:0;left:0;bottom:0;width:40px;transition:.3s all ease;z-index:100}
 .navigation.hide{transform:translateX(-100%)}
-.navigation__list{display:flex;justify-content: center;align-items: center;gap:16px}
+.navigation__list{display:flex;justify-content: center;align-items: center;gap:16px;flex-direction: column;height:100vh;gap:16px}
+.navigation__button{width:16px;height:16px;background-color:#eee;border-radius:50%;transition:.2s all ease;cursor: pointer;}
+.is-on .navigation__button,
+.navigation__button:hover{background-color:#aaa;transform:scale(1.2)}
+
+/* 768 미만일때  */
+@media screen and (max-width : 768px){    
+    .navigation{width:100vw;height:16px;bottom:0;top:auto;left:0;right:0}
+    .navigation.hide{transform:translateY(100%)}
+    .navigation__list{height:100%;flex-direction: row;gap:0}
+    .navigation__item{flex:1;display:flex}
+    .navigation__button{width:100%;height:16px;border-radius:0;background-color:rgba(0,0,0,.3)}
+    .is-on .navigation__button{background-color:rgba(0,0,0,.8);transform: none;}
+}

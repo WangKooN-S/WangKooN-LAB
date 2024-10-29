@@ -13,6 +13,7 @@ function App() {
 	const handleScroll = () => {
 		const content = document.querySelector('.content');
 		const theme = document.querySelectorAll('.theme');
+		const themeInner = document.querySelectorAll('.theme__inner');
 		const intro = document.querySelector('.intro');
 		const contentMenu = document.querySelector('.content-title');
 		const scrollTop = window.scrollY;
@@ -30,6 +31,30 @@ function App() {
 				}
 			);
 
+			// 컨텐츠 높이에 따른 네비게이션 연동
+			let maxIndex = -1;
+
+			themeInner.forEach((item, index) => {
+				const themePosY = item.getBoundingClientRect().top + scrollTop;
+				if (scrollTop > themePosY - window.innerHeight / 2) {
+					maxIndex = index;
+				}
+			});
+
+			if (maxIndex !== -1) {
+                console.log(maxIndex);
+                const navItems = document.querySelectorAll('.navigation__item');
+                if (navItems.length > 0 && maxIndex !== undefined) {
+                    navItems.forEach((item, idx) => {
+                        if (idx === maxIndex) {
+                            item.classList.add('is-on');
+                        } else {
+                            item.classList.remove('is-on');
+                        }
+                    });
+                }
+            }
+
 			const footer = document.querySelector('.footer');
 			if (footer) {
 				const footerPosY = footer.getBoundingClientRect().top + scrollTop;
@@ -37,6 +62,7 @@ function App() {
 					setIsVisible(0);
 				}
 			}
+
 		}else{
 			intro.classList.remove('hide');
 			setIsVisible(0);
