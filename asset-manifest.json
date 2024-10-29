@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WangKooN-LAB/static/css/main.cc9709f0.css",
-    "main.js": "/WangKooN-LAB/static/js/main.18e646fd.js",
+    "main.css": "/WangKooN-LAB/static/css/main.e3b2c0c4.css",
+    "main.js": "/WangKooN-LAB/static/js/main.fd7125cb.js",
     "static/js/453.1a74cee8.chunk.js": "/WangKooN-LAB/static/js/453.1a74cee8.chunk.js",
     "static/media/hobby_image6.jpg": "/WangKooN-LAB/static/media/hobby_image6.1ef137124545c4461e03.jpg",
     "static/media/hobby_image8.jpg": "/WangKooN-LAB/static/media/hobby_image8.c24f0c207854d3e270df.jpg",
@@ -12,19 +12,23 @@
     "static/media/hobby_image9.jpg": "/WangKooN-LAB/static/media/hobby_image9.b0395b4bc3843e80312d.jpg",
     "static/media/hobby_image5.jpg": "/WangKooN-LAB/static/media/hobby_image5.1ec648c2b2ffaafa2526.jpg",
     "static/media/hobby_image2.jpg": "/WangKooN-LAB/static/media/hobby_image2.955102e57a7084002581.jpg",
+    "static/media/pftThumb4.jpg": "/WangKooN-LAB/static/media/pftThumb4.4050b4ab54ae44225225.jpg",
     "static/media/pfThumb06.jpg": "/WangKooN-LAB/static/media/pfThumb06.39386b0de43bef7f942e.jpg",
     "static/media/pfThumb07.jpg": "/WangKooN-LAB/static/media/pfThumb07.3ca0d546fa9aea569f49.jpg",
+    "static/media/pftThumb6.jpg": "/WangKooN-LAB/static/media/pftThumb6.63ad0bc8fa9d0344630e.jpg",
     "static/media/imgShare.jpg": "/WangKooN-LAB/static/media/imgShare.8097bd7af6041063bda6.jpg",
+    "static/media/pftThumb10.jpg": "/WangKooN-LAB/static/media/pftThumb10.4a8ca882cfd9bc738845.jpg",
     "static/media/pfThumb05.jpg": "/WangKooN-LAB/static/media/pfThumb05.e635e4d6f4e667d440b8.jpg",
     "static/media/face.png": "/WangKooN-LAB/static/media/face.3989ee45b4c89057b211.png",
+    "static/media/pftThumb5.jpg": "/WangKooN-LAB/static/media/pftThumb5.f511e67cc3f3f87cbf7b.jpg",
     "static/media/link-alt-1-svgrepo-com.svg": "/WangKooN-LAB/static/media/link-alt-1-svgrepo-com.70fe25f5277e27fd9530.svg",
     "index.html": "/WangKooN-LAB/index.html",
-    "main.cc9709f0.css.map": "/WangKooN-LAB/static/css/main.cc9709f0.css.map",
-    "main.18e646fd.js.map": "/WangKooN-LAB/static/js/main.18e646fd.js.map",
+    "main.e3b2c0c4.css.map": "/WangKooN-LAB/static/css/main.e3b2c0c4.css.map",
+    "main.fd7125cb.js.map": "/WangKooN-LAB/static/js/main.fd7125cb.js.map",
     "453.1a74cee8.chunk.js.map": "/WangKooN-LAB/static/js/453.1a74cee8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc9709f0.css",
-    "static/js/main.18e646fd.js"
+    "static/css/main.e3b2c0c4.css",
+    "static/js/main.fd7125cb.js"
   ]
 }
