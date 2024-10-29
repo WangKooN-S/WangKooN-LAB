@@ -85,6 +85,30 @@
 .hobby__tags--item{border-radius:4px;color:var(--var-main-color);font-size:12px}
 .hobby__tags--item:before{content:"#"}
 
+/* 테마 - 프로젝트 */
+.theme-project .theme__header{display:flex;flex-direction: column;gap:12px}
+.theme-project .theme__content{gap:32px}
+.project__list{line-height:1.6;position: relative;display:flex;flex-direction: column;padding:32px 0 0 24px;gap:24px}
+.project__list--item{position: relative;font-size:16px;display:flex;flex-direction: column;gap:4px}
+.project__list--item:before{content:"";position:absolute;width:11px;height:11px;border:1px solid #aaa;border-radius:50%;left:-24px;top:4px;background-color:#fff;z-index:1}
+.project__list--item:after{content:"";position:absolute;width:1px;height:calc(100% + 25px);background-color:#eee;left:-18px;top:3px}
+.project__list--item:last-child:after{display:none}
+.project__list--years{color:#aaa;font-size:12px;order:-10}
+.project__list--title{font-weight:bold;color:#222;font-size:18px}
+.project__list--description{color:#888;font-size:13px}
+.project__list--tag{display: flex;gap: 4px;font-size: 11px;flex-wrap: wrap;order:-9;}
+.project__list--tag-item{padding: 3px 4px 2px;    display:inline-flex;border: 1px solid var(--var-main-color);border-radius: 4px;color: var(--var-main-color);line-height:1;}
+.project__link{display: block;border: 1px solid #efefef;border-radius: 16px;padding: 12px 16px 16px;box-shadow: 0 2px 4px rgba(0, 0, 0, .1);background-color: #fafafa;margin-top:16px}
+.project__link--title{font-size:15px;font-weight:bold;padding-bottom:4px;display:flex;align-items:center;gap:0 8px}
+.project__link--title:after{content:"";width:20px;height:20px;background:url(../images/link-alt-1-svgrepo-com.svg) no-repeat 50% 50% / 100% 100%;opacity:.6}
+.project__link:hover .project__link--title{text-decoration: underline;text-underline-position: under;}
+.project__link--participation{font-size:13px;color:#666}
+.project__link--techStack{display:flex;gap:4px;flex-wrap:wrap;}
+.project__link--tag-item{font-size:10px;background-color:rgba(0,0,0,.3);color:#fff;border-radius:4px;padding:2px 4px;line-height:1}
+.project__link--content{display:flex;gap:8px;flex-wrap:wrap;border-top: 1px dashed #ddd;margin: 16px -16px 0;padding: 16px 16px 0}
+.project__link--item{display:inline-flex;height:80px;width:auto;border:1px solid #ddd;border-radius:8px}
+.project__link--item img{border-radius:8px}
+
 /* 백그라운드 */
 .background-area{width:50vw;position:fixed;top:0;left:50%;right:0;bottom:0;transition:.5s background ease;z-index:0;background-color:transparent}
 .background-area[data-theme-index="0"]{opacity:0;z-index:-1}

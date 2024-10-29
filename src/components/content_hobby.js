@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 function ContentHobby( {themeData} ) {
-    console.log(themeData);
+    // console.log(themeData);
 	return (
 		<>
 		<section id={themeData.type} className={`theme theme-${themeData.type}`} data-theme-index={themeData.idx}>
