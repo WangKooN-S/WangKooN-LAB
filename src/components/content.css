@@ -156,10 +156,11 @@
     .footer .content__symbol{transform:scale(.7)}
     .theme{padding:16px}
     .theme__inner{padding:48px 28px}
-    .introduce__name,
+    .introduce__name{font-size:38px}
+    /* .introduce__name,
     .introduce__position,
     .introduce__bio{text-align:center}
-    .introduce__tags{justify-content: center;}
+    .introduce__tags{justify-content: center;} */
 
 
 }

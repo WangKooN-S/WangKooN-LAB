@@ -19,7 +19,7 @@
 .is-complete .intro__text--en{opacity:1}
 .is-complete .intro__text-loader{border:6px solid #fa2969}
 .is-complete .intro__text-loader:after{opacity:0}
-.is-complete .intro__text-loader.btn-start{background:transparent;line-height:1;font-size:18px;box-sizing:content-box}
+.is-complete .intro__text-loader.btn-start{background:transparent;line-height:1;font-size:18px;box-sizing:content-box;color:#000}
 .is-complete .intro__text-loader.btn-start:hover{background:#fa2969;color:#fff;font-weight:bold;cursor:pointer;font-size:20px;line-break:56px}
 .is-complete .intro__text-loader.scroller{width:40px;border-radius:30px 30px;border:3px solid #fa2969;height:60px;position:relative;background:transparent}
 .is-complete .intro__text-loader.scroller:before{content:'';width:8px;height:8px;background:#fa2969;margin-left:-4px;top:8px;border-radius:4px;animation-duration:1.5s;animation-iteration-count:infinite;animation-name:scroll;position:absolute;left:50%}
