@@ -274,6 +274,32 @@
                         "tags" : ["하이브리드 앱 프로젝트"],
                         "participation": "기획/디자인/개발 100%",
                         "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Phonegap", "Photoshop"]
+                    },
+                    {
+                        "title" : "왕군웹공방 v3",
+                        "description" : "2015년에 제작한 개인 포트폴리오 사이트입니다. \n xHTML, CSS2, jQuery를 사용하여 제작하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/WangKooN-LAB/v3/",
+                        "image" : [
+                            "pfThumb13.jpg",
+                            "pfThumb14.jpg"
+                        ],
+                        "year" : "2015",
+                        "tags" : ["Regacy 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["xHTML", "CSS2", "jQuery","Photoshop"]
+                    },
+                    {
+                        "title" : "왕쿤 홈페이지 v2",
+                        "description" : "2014년에 제작한 개인 포트폴리오 사이트입니다. \n xHTML, CSS2, jQuery를 사용하여 제작하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/WangKooN-LAB/v2/",
+                        "image" : [
+                            "pfThumb15.jpg",
+                            "pfThumb16.jpg"
+                        ],
+                        "year" : "2014",
+                        "tags" : ["Regacy 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["xHTML", "CSS2", "jQuery","Photoshop"]
                     }
                 ]
             },
