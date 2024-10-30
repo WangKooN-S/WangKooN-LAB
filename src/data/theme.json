@@ -231,7 +231,20 @@
                             "pfThumb11.jpg",
                             "pfThumb12.jpg"
                         ] ,
-                        "year" : "2019",
+                        "year" : "2019 (rev.2024)",
+                        "tags" : ["웹 프로젝트"],
+                        "participation": "기획/디자인/개발 100%",
+                        "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
+                    },
+                    {
+                        "title" : "Koonie Collect Archive",
+                        "description" : "화폐 수집과 관련한 정보를 소개하고, 소장품 리스트를 관리하는 페이지 입니다.\n 구글시트를 데이터베이스로 활용하여 소장품 목록을 관리합니다. \n jQuery기반 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
+                        "url" : "https://wangkoon-s.github.io/CollectArchive/",
+                        "image" : [
+                            "pfThumb03.jpg",
+                            "pfThumb04.jpg"
+                        ],
+                        "year" : "2017 (rev.2024)",
                         "tags" : ["웹 프로젝트"],
                         "participation": "기획/디자인/개발 100%",
                         "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
@@ -248,19 +261,6 @@
                         "tags" : ["웹 프로젝트"],
                         "participation": "기획/디자인/개발 100%",
                         "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery","Photoshop","Google Sheet"]
-                    },
-                    {
-                        "title" : "Koonie Collect Archive",
-                        "description" : "화폐 수집과 관련한 정보를 소개하고, 소장품 리스트를 관리하는 페이지 입니다.\n 구글시트를 데이터베이스로 활용하여 소장품 목록을 관리합니다. \n jQuery기반 프로젝트를 2024년에 React로 리뉴얼하였습니다.",
-                        "url" : "https://wangkoon-s.github.io/CollectArchive/",
-                        "image" : [
-                            "pfThumb03.jpg",
-                            "pfThumb04.jpg"
-                        ],
-                        "year" : "2017",
-                        "tags" : ["웹 프로젝트"],
-                        "participation": "기획/디자인/개발 100%",
-                        "techStack": ["HTML5", "CSS3", "JavaScript", "React", "Github", "Figma"]
                     },
                     {
                         "title" : "[Android] 후다닥 스테이션",
