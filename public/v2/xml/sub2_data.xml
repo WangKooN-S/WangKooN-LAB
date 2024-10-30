@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<item>
+		<title>[2014.11] G-MARKET x RAUM EDITION (WEB) </title>
+		<imgData>images/sub2_raum.jpg</imgData>
+		<link>http://event.gmarket.co.kr/html/201411/CD_Fashion/1110_131982_raumEdition.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.11] G-MARKET x 8 Seconds SuperWeek (WEB) </title>
+		<imgData>images/sub2_8sec.jpg</imgData>
+		<link>http://event.gmarket.co.kr/html/201411/CD_Fashion/1110_8secSuperWeek.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.11] G-MARKET 보드 하프딜 시즌3 (MOBILE) </title>
+		<imgData>images/sub2_half3_mo.jpg</imgData>
+		<link>http://m.gmarket.co.kr/event/2014/11/1107_halfdeal/event.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.11] G-MARKET 보드 하프딜 시즌3 (WEB) </title>
+		<imgData>images/sub2_half3.jpg</imgData>
+		<link>http://event.gmarket.co.kr/html/201411/CD_Living/1110_halfDeal_s3.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>		
+	<item>
+		<title>[2014.11] G-MARKET x 8 Seconds Promotion (Mobile) </title>
+		<imgData>images/sub2_8sm.gif</imgData>
+		<link>http://m.gmarket.co.kr/Event/m_eventview/index.asp?msid=994</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>		
+	<item>
+		<title>[2014.11] G-MARKET x 8 Seconds Promotion (WEB) </title>
+		<imgData>images/sub2_8sw.gif</imgData>
+		<link>http://promotion.gmarket.co.kr/planview/plan.asp?sid=131878</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>	
+	<item>
+		<title>[2014.10] G-MARKET x BIGBANG 8주년 기념우표 (WEB/MOBILE) </title>
+		<imgData>images/sub2_bigbang.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201410/CD_Living/1027_131683_bigbangStamp.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>	
+	<item>
+		<title>[2014.10] G-MARKET SK-II OFFICIAL MALL (WEB) </title>
+		<imgData>images/sub2_sk2.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201409/CD_Fashion/sk2/onsite/sk2_main.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.10] G-MARKET SK-II OFFICIAL PROMOTION (MOBILE) </title>
+		<imgData>images/sub2_sk2_mo.gif</imgData>
+		<link>http://m.gmarket.co.kr/Event/m_eventview/index.asp?msid=938</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.09] G마켓 주말하프딜 프로모션 (WEB / MOBILE)</title>
+		<imgData>images/sub2_halfdeal.gif</imgData>
+		<link>http://promotion.gmarket.co.kr/planview/plan.asp?sid=129471</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2014.08] G마켓 실속추석백서 (WEB / MOBILE)</title>
+		<imgData>images/sub2_img1.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201408/140818_chuseok/onsite/chuseok.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2014.07] G마켓 스포츠 리얼반값 프로모션 (WEB / MOBILE)</title>
+		<imgData>images/sub2_real.gif</imgData>
+		<link>http://promotion.gmarket.co.kr/planview/plan.asp?sid=128054</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2014.07] G-MARKET GLOBAL NAVIGATION  </title>
+		<imgData>images/sub2_gnb2.gif</imgData>
+		<link>http://www.gmarket.co.kr</link>
+		<description>CSS DESIGN + JAVASCRIPT(JQUERY) 100%</description>
+	</item>
+	<item>
+		<title>[2014.05] G-MARKET x GOOGLE 크롬캐스트 프로모션 (WEB / MOBILE) </title>
+		<imgData>images/sub2_chrome.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201405/140514_chromeCast/onsite/chromeCast.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2014.04] G-MARKET 청년봉사단 22기 (WEB) </title>
+		<imgData>images/sub2_glove.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201404/140416_glove22/onsite/0416_glove_22nd.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2014.02] G-MARKET SPECIAL OFFER 3RD (WEB / ONSITE) </title>
+		<imgData>images/sub2_offer.gif</imgData>
+		<link>http://event.gmarket.co.kr/html_new/201402/140224_SpecialOffer/index.asp</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2013.09] G-MARKET 프로야구 세일즈 프로모션 (WEB) </title>
+		<imgData>images/sub2_baseball.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201310/131002_baseball/baseballDay.html</link>
+		<description>DESIGN 30% + HTML + CSS + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2013.04] G-MARKET FASHION EVENT (WEB) </title>
+		<imgData>images/sub2_evt1.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201304/00_fashion/130411_104400/104400_main.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>[2013.02] G-MARKET x Smilage (WEB) </title>
+		<imgData>images/sub2_smilage.gif</imgData>
+		<link>design/201302_smilage.html</link>
+		<description>HTML CODING + CSS DESIGN + JAVASCRIPT 100%</description>
+	</item>
+</xml>
+

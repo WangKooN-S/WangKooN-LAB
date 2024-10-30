@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<item>
+		<title>G마켓 RainyDay Check List (Promotion)  </title>
+		<imgData1>portfolio/pfThumb2s1.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f1.jpg</imgData2>
+		<link>html/201306_rainyday.html</link>
+		<description>DESIGN 100% + HTML CODING 100%</description>
+	</item>
+	<item>
+		<title>G마켓 남성트렌드관 (Micro Site)</title>
+		<imgData1>portfolio/pfThumb2s2.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f2.jpg</imgData2>
+		<link>http://event.gmarket.co.kr/html/201306/00_fashion/130603_mensTrend/92141_main.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>G마켓 x MBC MOBiC v2 (Promotion) </title>
+		<imgData1>portfolio/pfThumb2s3.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f3.jpg</imgData2>
+		<link>http://event.gmarket.co.kr/html/201305/00_fashion/130523_mobic/mbc_starFashion.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>G마켓 x Seoul Girls Collection 2013 (Micro Site)  </title>
+		<imgData1>portfolio/pfThumb2s4.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f4.jpg</imgData2>
+		<link>http://event.gmarket.co.kr/html/201303/00_fashion/130328_sgc/116037_main.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>G마켓 Designer Eyewear (Micro Site) </title>
+		<imgData1>portfolio/pfThumb2s5.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f5.jpg</imgData2>
+		<link>html/201303_dEye.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>G마켓 x GUGUS (Micro Site) </title>
+		<imgData1>portfolio/pfThumb2s6.jpg</imgData1>
+		<imgData2>portfolio/pfThumb2f6.jpg</imgData2>
+		<link>html/201212_gugus.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+</xml>
+
+
