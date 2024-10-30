@@ -1,11 +1,11 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto:500");
+@import url("//fonts.googleapis.com/css?family=Roboto:500");
 @font-face{
-/* font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'),url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype')} */
-font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot),url(http://script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Light'),local('NotoSans-Light'),url(http://script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.woff) format('woff'),url(http://script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.otf) format('opentype')}
+/* font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype')} */
+font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Light'),local('NotoSans-Light'),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.otf) format('opentype')}
 @font-face{
-font-family:'Noto Sans Korean';font-style:normal;font-weight:bold;src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot),url(http://script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Medium'),local('NotoSans-Medium'),url(http://script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.woff) format('woff'),url(http://script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.otf) format('opentype')}
+font-family:'Noto Sans Korean';font-style:normal;font-weight:bold;src:url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Medium'),local('NotoSans-Medium'),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.otf) format('opentype')}
 
-/* @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+/* @import url("//fonts.googleapis.com/earlyaccess/nanumgothic.css");
 @import url("../fonts/gothamBlack.css"); */
 html,body{width:100%;min-width:0;height:100%}
 
