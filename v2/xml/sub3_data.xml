@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<item>
+		<title>(2013.06) G마켓 RainyDay Check List  </title>
+		<imgData>images/sub3_rainy.gif</imgData>
+		<link>design/201306_rainyday.html</link>
+		<description>DESIGN 100% +HTML CODING 100%</description>
+	</item>
+	<item>
+		<title>(2013.05) G마켓 남성트렌드관 </title>
+		<imgData>images/sub3_mensTrend.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201306/00_fashion/130603_mensTrend/92141_main.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>(2013.05) G마켓 x MBC MOBiC ver.2 </title>
+		<imgData>images/sub3_mobic2.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201305/00_fashion/130523_mobic/mbc_starFashion.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>(2013.04) G마켓 x Seoul Girls Collection 2013  </title>
+		<imgData>images/sub3_sgc.gif</imgData>
+		<link>http://event.gmarket.co.kr/html/201303/00_fashion/130328_sgc/116037_main.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>(2013.03) G마켓 Designer Eyewear </title>
+		<imgData>images/sub3_dEye.gif</imgData>
+		<link>design/201303_dEye.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+	<item>
+		<title>(2012.12) G마켓 x GUGUS </title>
+		<imgData>images/sub3_gugus.gif</imgData>
+		<link>design/201212_gugus.html</link>
+		<description>DESIGN 100% + HTML / CSS / JAVASCRIPT 100%</description>
+	</item>
+</xml>
+
+

@@ -1,0 +1,32 @@
+/* @import url(https://cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css); */
+
+/* typography */
+@font-face{
+    font-family:'NS Korean';font-style:normal;font-weight:400;
+    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');
+    src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'), 
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+} 
+@font-face{
+    font-family:'NS Korean';font-style:normal;font-weight:bold;
+    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype');
+    src:local('Noto Sans Bold'),local('NotoSans-Bold'),	
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+@font-face{
+    font-family:'NS Korean';font-style:normal;font-weight:900;
+    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Black-Hestia.eot),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype');
+    src:local('Noto Sans Black'),local('NotoSans-Black'),	
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Black-Hestia.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
+	
+*{margin:0;padding:0;border:0;font-family:'NS Korean',"맑은 고딕",Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD 산돌고딕 Neo', Apple-Gothic, '애플고딕', 'Tahoma', 'dotum', '돋움', 'gulim', '굴림', sans-serif;}
+ul,ol,li{list-style:none;}
+img{border:0;}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}	

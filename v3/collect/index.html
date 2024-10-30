@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<title>KOONIE COLLECTION</title>
+	<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no" />
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="shortcut icon" href="wkn_ico.ico">
+	<!-- Reset CSS -->
+	<link rel="stylesheet" href="css/common.css">	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style type="text/css">
+	</style>
+	<!-- jQuery -->
+	<script type="text/javascript" src="src/jquery.min.js"></script>	
+	<!-- Custom Script -->
+	<script type="text/javascript" src="src/swiper.min.js"></script>
+	<script type="text/javascript" src="src/themeList.js"></script>
+	<script type="text/javascript" src="src/main.js"></script>	
+</head>
+<body>
+	<!-- 쿠니 코인 로더 -->
+	<div id="loader">
+		<div class="ico_loader">
+			<div class="loading_bar"></div>
+		</div>
+		<span class="txt_loader">LOADING...</span>
+	</div>	
+	<!-- 쿠니 콜렉션 메인컨텐츠 -->
+	<div id="wrapper">
+		<div id="contents">
+			<div id="main">
+				<div id="intro" class="card standard">
+					<span class="txt_intro">
+						<span class="subtit_ko">수집덕후의 테마가 있는 수집이야기</span>
+						<span class="tit_intro">KOONIE</span>
+						<span class="tit_intro intr_yellow">COLLECTION</span>
+						<span class="wcoin"></span>
+					</span><br/>
+					<a href="#" class="btn_enter">입장하기</a>
+					<span class="bg_area"></span>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<!-- 서브 팝업 레이어 -->
+		<div id="sub_Layer">
+			<div id="sub_header">
+				<span class="txt_card">
+					<span class="txt_theme">KOONIE THEME1</span><br>
+					<span class="tit_nm">
+						<span class="txt_nmEn">Korea Banknote</span><span class="txt_nmKo" style="color:#eb1e45;border-color:#eb1e45">대한민국 화폐</span>
+					</span>
+				</span>
+				<a href="" class="btn_close"></a>
+			</div>
+			<div id="sub_cont">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div>
+		</div>
+		<!-- 미리보기 레이어 -->
+		<div id="preview_layer" onclick="$(this).fadeOut(100)">
+			<div class="preview_wrap">
+				<div class="preview_inner">
+					<img src="https://i.colnect.net/b/2327/497/100-Yen.jpg" alt="">
+					<img src="https://i.colnect.net/b/2327/498/100-Yen-back.jpg" alt="">
+				</div>								
+			</div>
+		</div>
+	</div>
+</body>
+</html>

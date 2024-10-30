@@ -1,0 +1,95 @@
+
+/* WangKoon's Portfolio v2 */
+/* Written by Shin, Wang Sub (Wangsub@naver.com) */
+/* Date : 2013-06-30*/
+/* Last Modified : 2014-11-02*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* Contents */
+#wrapper{width:100%;height:100%;position:relative;overflow:hidden}
+
+#con_main{width:100%;height:100%;background-color:#444;overflow:hidden;position:absolute;top:0;left:0}
+#con_main #main_img{width:100%;height:240px;margin-top:-240px}
+   
+#con_main #main_nick{width:530px;height:122px;left:50%;margin-left:-265px;overflow:hidden;cursor:pointer}
+#con_main #main_nick_sub {position:absolute;width:313px;height:50px;top:50%;margin-top:122px;left:50%;margin-left:-157px}
+#con_main .resolution{position:absolute;width:600px;height:19px;bottom:32px;left:50%;margin-left:-300px;text-align:center;font-family:'Nanum Gothic', sans-serif;color:#c0bcbb;font-size:8pt}
+
+#con_main .bg_attr{position:absolute;background-color:#dc6957;top:50%}
+
+.my_symbolmask{width:250px;height:240px;background:url(../images/mySymbolMask.png) no-repeat;position:absolute;left:50%;margin-left:-125px}
+.add_left{width:1500px;height:100%;position:absolute;background-color:#444;top:0;right:0;margin-right:249px}
+.add_right{width:1500px;height:100%;position:absolute;background-color:#444;top:0;left:0;margin-left:249px}
+
+.my_symbol{position:absolute;left:50%;top:0;margin-left:-125px}
+
+.color_picker{width:100%;height:25px;position:absolute;top:50%;margin-top:200px;left:0;overflow:hidden}
+.color_picker ul{margin:0 auto;height:25px;overflow:hidden}
+.color_picker ul li{margin-top:-25px;float:left;margin-left:3px;margin-right:3px;width:25px;height:25px;overflow:hidden;position:relative;cursor:pointer}
+.color_picker ul li a{position:absolute;top:0;left:0;width:25px;height:25px;background:url(../images/colorPicker.png) no-repeat}
+
+.con{width:100%;height:100%;background-color:#444;overflow:hidden;position:absolute;top:0;left:100%;font-family:'Nanum Gothic', sans-serif}
+
+.des_color{top:0;left:0;width:100%;height:100%;z-index:9999;position:absolute;display:none}
+.des_color .des_color_bg{width:100%;height:100%;background-color:#000;filter:alpha(opacity=70);opacity:0.7;-moz- opacity:0.7}
+.des_color p{position:absolute;top:0;width:0;overflow:hidden;z-index:9999;top:50%}
+.des_color .des_type{left:50%;height:135px;background:url(../images/desColor.png) no-repeat;margin-top:175px;margin-left:-183px}
+.des_color .des_arrow{float:right;right:50px;height:122px;background:url(../images/desArrow.png) no-repeat;margin-top:-95px}
+
+#next_btn{right:0}
+#next_btn img{margin-left:80px}
+#prev_btn{left:0}
+#prev_btn img{margin-left:-80px}
+.btn_attr{width:80px;height:100%;overflow:hidden;position:absolute;top:0}
+.btn_attr p{width:80px;height:80px;overflow:hidden;position:absolute;top:50%;margin-top:-40px;left:0;cursor:pointer}
+
+/* Contents Area */
+#con_sub1{}
+.sub_con1{position:absolute;left:50%;width:800px;margin-left:-400px;top:50%;height:600px;margin-top:-300px}
+.sub_con1 h2{border-bottom:4px solid #5f5f5f;height:51px;position:relative}
+.sub_con1 h2 img{position:absolute;top:0;left:0}
+.sub_con1 h3{text-indent:10px ;padding:12px 0 10px 0;border-bottom:2px solid #5f5f5f}
+
+#con_sub1 .sub_con1 ul{margin:40px 0 0 10px}
+#con_sub1 .sub_con1 ul li{margin-bottom:30px;overflow:hidden}
+#con_sub1 .sub_con1 ul li .tit{width:175px;float:left}
+#con_sub1 .sub_con1 ul li .com{float:left;line-height:24px;color:#a2a2a2;font-size:12px;margin-top:-6px;min-width: 500px}
+.com_name{font-weight:bold;color:#e2e2e2}
+.com_757575{color:#757575}
+
+.sub_con1 .sub2_con{margin:40px 0 0 10px;overflow:hidden}
+ul.preview{
+	scrollbar-3dlight-color: #6f73c0;
+	scrollbar-arrow-color: #cfd1f2;
+	scrollbar-darkshadow-color: #565996;
+	scrollbar-face-color: #6f73c0;
+	scrollbar-highlight-color: #9598d6;
+	scrollbar-shadow-color: #6569b0;
+	scrollbar-track-color: #434343;
+}
+
+::-webkit-scrollbar {width: 12px;}
+/* Track */
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 10px;border-radius: 10px;}
+/* Handle */
+::-webkit-scrollbar-thumb {   -webkit-border-radius: 10px; border-radius: 10px; background: rgba(124,129,226,0.8); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
+::-webkit-scrollbar-thumb:window-inactive {	background: rgba(124,129,226,0.4); }
+
+.sub_con1 .sub2_con ul.preview{width:240px;float:left;margin-left:-5px;margin-top:15px;height:420px;overflow:auto;overflow-y :auto;overflow-x:hidden }
+.sub_con1 .sub2_con ul.preview li{position:relative;float:left;width:100px;margin-left:5px;margin-top:5px;cursor:pointer}
+.sub_con1 .sub2_con ul.preview li img{width:100%}
+.sub_con1 .sub2_con .pubView{width:536px;float:right}
+.sub_con1 .sub2_con .pubView .view{position:relative;width:536px;height:342px;margin-top:20px}
+.sub_con1 .sub2_con .pubView .view .cover{position:absolute;width:100%;height:100%;background:url(../images/sub2_img_cover.png) no-repeat;top:0;left:0}
+.sub_con1 .sub2_con .pubView > p{padding-top:12px}
+.sub_con1 .sub2_con .pubView p.pubTitle{font-weight:bold;color:#e2e2e2}
+#con_sub2 .sub_con1 .sub2_con .pubView p.pubUrl,
+#con_sub2 .sub_con1 .sub2_con .pubView p.pubUrl a{font-weight:bold;color:#7c81e2}
+.sub_con1 .sub2_con .pubView p.pubDes{color:#a2a2a2}
+
+#con_sub3 .sub_con1 .sub2_con .pubView p.pubUrl,
+#con_sub3 .sub_con1 .sub2_con .pubView p.pubUrl a{font-weight:bold;color:#cedc57}
+
+#con_sub3{}
+#con_sub4{}

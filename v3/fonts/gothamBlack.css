@@ -1,0 +1,15 @@
+/*
+ * Gotham Black made by WangKooN
+ */
+@font-face {
+  font-family: 'Gotham Black';
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+  src: url(https://googledrive.com/host/0B5c0V3TIg2iBRUFCUGZscG1OYms/Gotham-Black.eot);
+  src: url(https://googledrive.com/host/0B5c0V3TIg2iBRUFCUGZscG1OYms/Gotham-Black.eot?#iefix) format('embedded-opentype'),
+       url(https://googledrive.com/host/0B5c0V3TIg2iBRUFCUGZscG1OYms/Gotham-Black.woff) format('woff2'),
+       url(https://googledrive.com/host/0B5c0V3TIg2iBRUFCUGZscG1OYms/Gotham-Black.woff) format('woff'),
+       url(https://googledrive.com/host/0B5c0V3TIg2iBRUFCUGZscG1OYms/Gotham-Black.ttf) format('truetype');
+}
+
+.fontGothamB{font-family: 'Gotham Black',sans-serif;}
