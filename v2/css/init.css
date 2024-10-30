@@ -24,6 +24,6 @@ label {cursor:pointer;}
 div.clear {clear:both;}
 
 /* Add Init */
-.blank_btn{	background: url(http://image.gmarket.co.kr/challenge/gmarket_event/2014/01/CD_Common/blank_btn.png) repeat}
+.blank_btn{	background: url(//image.gmarket.co.kr/challenge/gmarket_event/2014/01/CD_Common/blank_btn.png) repeat}
 .blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
 .nowrap{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis}
