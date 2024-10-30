@@ -1,16 +1,12 @@
 @import url("//fonts.googleapis.com/css?family=Roboto:500");
-@font-face{
-/* font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype')} */
-font-family:'Noto Sans Korean';font-style:normal;font-weight:400;src:url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Light'),local('NotoSans-Light'),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-Light-Hestia.otf) format('opentype')}
-@font-face{
-font-family:'Noto Sans Korean';font-style:normal;font-weight:bold;src:url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype');src:local('Noto Sans Medium'),local('NotoSans-Medium'),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.woff) format('woff'),url(//script.ebay.co.kr/fonts/NotoSansKR-Medium-Hestia.otf) format('opentype')}
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
 
 /* @import url("//fonts.googleapis.com/earlyaccess/nanumgothic.css");
 @import url("../fonts/gothamBlack.css"); */
 html,body{width:100%;min-width:0;height:100%}
 
 /* Contents */
-#wrapper{overflow:hidden;position:relative;width:100%;background:#f9f9f9;font-family:Roboto,'Noto Sans Korean',sans-serif}
+#wrapper{overflow:hidden;position:relative;width:100%;background:#f9f9f9;font-family:Roboto,'Noto Sans KR',sans-serif}
 #main{position:relative;width:100%;height:100%}
 #main .main_con{position:absolute;top:50%;left:50%;width:720px;height:420px;margin-left:-360px;margin-top:-210px}
 #main .main_con .visual{float:left;width:370px;height:296px;border-bottom:3px solid #474b4d;background:url(../images/visualFace.png) no-repeat 50% 100% fixed;text-align:center;opacity:0}
@@ -49,7 +45,7 @@ html,body{width:100%;min-width:0;height:100%}
 .resume_con .resume_data table tr:first-child{padding:0}
 .resume_con .resume_data table th{position:relative;width:65px;padding-right:45px}
 .resume_con .resume_data table th img{position:absolute;top:3px;left:0}
-.resume_con .resume_data table td{line-height:20px;font-size:14px;color:#444;padding-bottom:15px;font-family:'Noto Sans Korean',Roboto,sans-serif}
+.resume_con .resume_data table td{line-height:20px;font-size:14px;color:#444;padding-bottom:15px;font-family:'Noto Sans KR',Roboto,sans-serif}
 
 .portfolio_con{position:absolute;top:50%;left:0;width:100%;height:370px;margin-top:-185px;border-top:3px solid #474b4d}
 .portfolio_con h2{width:209px}
@@ -64,7 +60,7 @@ html,body{width:100%;min-width:0;height:100%}
 
 .portfolio_con .portfolioList li p{padding-bottom:8px;text-align:left}
 .portfolio_con .portfolioList li p.conTit{overflow:hidden;padding-top:15px;font-weight:bold;font-size:15px;color:#303030;letter-spacing:-.5px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis}
-.portfolio_con .portfolioList li p.conTools{font-size:12px;font-family:'Noto Sans Korean',tahoma,sans-serif;line-height:16px;color:#444}
+.portfolio_con .portfolioList li p.conTools{font-size:12px;font-family:'Noto Sans KR',tahoma,sans-serif;line-height:16px;color:#444}
 .portfolio_con .pageCon{padding:20px;font-size:16px;color:#bbb;text-align:center}
 .portfolio_con .pageCon a{padding:0 5px;font-weight:normal;color:#919090}
 
