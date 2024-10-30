@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WangKooN-LAB/static/css/main.26d52f0c.css",
-    "main.js": "/WangKooN-LAB/static/js/main.5f69857d.js",
+    "main.js": "/WangKooN-LAB/static/js/main.c212d1f0.js",
     "static/js/453.a25331a6.chunk.js": "/WangKooN-LAB/static/js/453.a25331a6.chunk.js",
     "static/media/hobby_image6.jpg": "/WangKooN-LAB/static/media/hobby_image6.1ef137124545c4461e03.jpg",
     "static/media/hobby_image8.jpg": "/WangKooN-LAB/static/media/hobby_image8.c24f0c207854d3e270df.jpg",
@@ -24,11 +24,11 @@
     "static/media/link-alt-1-svgrepo-com.svg": "/WangKooN-LAB/static/media/link-alt-1-svgrepo-com.70fe25f5277e27fd9530.svg",
     "index.html": "/WangKooN-LAB/index.html",
     "main.26d52f0c.css.map": "/WangKooN-LAB/static/css/main.26d52f0c.css.map",
-    "main.5f69857d.js.map": "/WangKooN-LAB/static/js/main.5f69857d.js.map",
+    "main.c212d1f0.js.map": "/WangKooN-LAB/static/js/main.c212d1f0.js.map",
     "453.a25331a6.chunk.js.map": "/WangKooN-LAB/static/js/453.a25331a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26d52f0c.css",
-    "static/js/main.5f69857d.js"
+    "static/js/main.c212d1f0.js"
   ]
 }
