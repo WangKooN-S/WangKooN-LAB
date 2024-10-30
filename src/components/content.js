@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import ContentMenu from './content_menu';
 import ContentIntro from './content_intro';
 import ContentHobby from './content_hobby';

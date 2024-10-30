@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
 function ContentHobby( {themeData} ) {
     // console.log(themeData);

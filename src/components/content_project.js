@@ -1,11 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
 function ContentProject( {themeData} ) {
     
     const content = themeData.content;
-    const combinedProjects = [].concat(content.personalProj || [], content.teamProj || []);
 
-    console.log(content.personalProj);
+    // console.log(content.personalProj);
 	return (
 		<>
 		<section id={themeData.type} className={`theme theme-${themeData.type}`} data-theme-index={themeData.idx}>
