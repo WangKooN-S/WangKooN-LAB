@@ -36,7 +36,7 @@ function ContentProject( {themeData} ) {
                                         ))}
                                     </ul>
                                     { item.url && (
-                                        <a className="project__link" href={item.url} target="_blank">
+                                        <a className="project__link" href={item.url} target="_blank" rel="noreferrer">
                                             <div className="project__link--title">{item.title}</div>
                                             <div className="project__link--participation">참여도 : {item.participation}</div>
                                             <div className="project__link--techStack">
